@@ -1,0 +1,189 @@
+@import url('main.css');
+
+._container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: mediumseagreen;
+}
+a,.block_link_blue,.block_link_green{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.header,footer{
+    background: blueviolet;
+    padding: 30px 0;
+}
+.main{
+    background: turquoise;
+}
+.footer{
+    background:rosybrown;
+}
+/*HEADER=================================================================================*/
+
+.list{
+    border: 3px solid dodgerblue;
+    padding: 10px 0;
+}
+.link{
+    display: inline-block;
+    margin-right: 25px;
+}
+.list li:first-child{
+    margin-left: 15px;
+}
+.list li:last-child{
+    margin-right: 0;
+}
+.link_active a{
+    color: #fff;
+    text-decoration:underline;
+}
+.link_active a:hover{
+    color: inherit;
+    text-decoration:inherit;
+}
+/*MAIN=======================================================================================*/
+/*SECTION_GREEN==============================================================================*/
+
+.section_green{
+    text-align: center;
+}
+.section_green div:nth-child(even){
+    background: brown;
+}
+.section_green div:hover:nth-child(4){
+    background: green;
+}
+.section_title{
+    text-align: left;
+    color: #fff;
+    padding: 20px;
+}
+.cards{
+    display: inline-block;
+    border: 3px solid white;
+    width: 20%;
+    padding: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.cards:last-child{
+    margin-right: 0;
+}
+.cards_img img{
+    width:100%;
+}
+.cards_title,.cards_price{
+    color:rebeccapurple;
+    font-weight: 700;
+    padding: 10px 0;
+    display: inline-block;
+}
+/*SECTION_BLUE==============================================================================*/
+
+.section_blue{
+    background: dodgerblue;
+    text-align: center;
+}
+.only_card{
+    width: 16%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+.section_blue div:nth-child(6) {
+    margin-right: 0;
+}
+.section_blue div:nth-child(even){
+    border: 2px solid white;
+    padding: 30px 10px 30px 30px;
+}
+.section_blue div:nth-child(3){
+    border: 2px solid rebeccapurple;
+    padding: 10px  40px 10px 10px;
+}
+.section_blue div:nth-child(5){
+    border: 2px solid red;
+    padding: 10px  40px 10px 10px;
+}
+.only_card img{
+    width: 100%;
+}
+/*SECTION_BROWN==============================================================================*/
+
+.section_brow{
+    background: brown;
+}
+.section_brow_content{
+    padding:0 20px;
+}
+.section_brow_content span{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.big_size{
+    font-size: 24px;
+}
+.big_size:first-letter{
+    color: #fff;
+}
+.before_after:before{
+    content:'This is before element';
+    color: #fff;
+}
+.before_after:after{
+    content:'This is after element';
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.rebeccapurple_letter,.before_after{
+    color: rebeccapurple;
+}
+.rebeccapurple_letter:first-letter{
+    color: white;
+}
+/*SECTION_BROWN block_link_blue==============================================================================*/
+
+.block_link_blue,.block_link_green{
+    background: mediumseagreen;
+    padding: 20px;
+}
+.block_link_blue li,.block_link_green li {
+    border: 2px solid white;
+    background: dodgerblue;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+}
+.block_link_blue li:nth-child(even){
+     font-size: 14px;
+}
+.active:hover{
+   color: lightgreen;
+}
+
+.block_link_blue a{
+    color: white;
+}
+/*SECTION_BROWN block_link_blue==============================================================================*/
+.block_link_green{
+    background: darkgreen;
+}
+.block_link_green li{
+    background: mediumspringgreen;
+}
+.block_link_green li:nth-child(odd){
+    font-size: 14px;
+}
+.block_link_green a{
+    color: blueviolet;
+}
+.active_green:hover{
+    color: black;
+}
+
+/*=============================================================================================================*/
